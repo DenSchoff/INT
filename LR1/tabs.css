@@ -1,0 +1,118 @@
+.tabs {
+  width: 1600px;
+  margin-top: 50px;
+  overflow: hidden;
+  margin-left: 200px;
+}
+.tabs * {
+  box-sizing: border-box;
+}
+
+.tabs__bar-wrap {
+  position: relative;
+}
+.tabs__bar-wrap.has-left-overflow::before {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  pointer-events: none;
+}
+.tabs__bar-wrap.has-right-overflow::after {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  pointer-events: none;
+}
+.tabs__bar-wrap.has-left-overflow::before {
+  left: 0;
+  background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.95) 100%);
+}
+.tabs__bar-wrap.has-right-overflow::after {
+  right: 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.95) 100%);
+}
+
+.tabs__bar {
+  position: relative;
+  display: flex;
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+@media (min-width: 480px) {
+  .tabs__bar {
+    min-width: auto;
+    overflow: hidden;
+  }
+}
+
+.tabs__line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4px;
+  will-change: transform;
+  transform-origin: left;
+}
+
+.buta {
+  flex: 1 0 auto;
+  min-width: 150px;
+  display: block;
+  padding: 20px 1px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 19px;
+  height: 60px;
+}
+
+.buta.is-active:hover{
+  color: black;
+  cursor: default;
+}
+
+@media (min-width: 480px) {
+  .buta {
+    min-width: auto;
+  }
+}
+
+.buta:hover {
+color: deepskyblue;
+}
+
+.buta:active {
+  -webkit-user-select: none;
+          user-select: none;
+}
+
+.tabs__content {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  width: calc(600px * 3);
+  overflow-y: hidden;
+  background-color: white;
+  will-change: transform, height;
+}
+
+.tabs__content.has-grab {
+  cursor: grabbing;
+}
+
+.tabs__section {
+  padding: 30px;
+  width: 600px;
+}

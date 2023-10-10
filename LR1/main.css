@@ -1,0 +1,448 @@
+.nav1 {
+    overflow: hidden; /* Hide overflow */
+    background-color: white; /* Dark background color */
+    border-bottom: 2px solid rgb(240,240,240);
+    width: 1930px;
+}
+
+.sd{
+    position: fixed;
+    z-index: 1;
+}
+
+/* Style the navigation bar links */
+.nav1 a { /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: black; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+    background-color: white;
+    border: lightgray;
+    float: right;
+}
+
+/* Change color on hover/mouse-over */
+.nav1 a:hover {
+    background-color: white;
+    color: cornflowerblue;
+}
+
+.search{
+    height: 100%;
+    width: 90px;
+    background-color: rgb(240,240,240);
+    border-bottom: 2px solid rgb(240,240,240);
+    border-left: 2px solid rgb(240,240,240);
+    border-right: 2px solid rgb(240,240,240);
+    border-top: 2px solid rgb(240,240,240);
+}
+
+.search:hover{
+    border-bottom: 2px solid cornflowerblue;
+    border-left: 2px solid cornflowerblue;
+    border-right: 2px solid cornflowerblue;
+    border-top: 2px solid cornflowerblue;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.search1{
+    height: 130%;
+    width: 120%;
+    background-color: rgb(240,240,240);
+    border-bottom: 2px solid rgb(240,240,240);
+    border-left: 2px solid rgb(240,240,240);
+    border-right: 2px solid rgb(240,240,240);
+    border-top: 2px solid rgb(240,240,240);
+}
+
+.search1:hover{
+    border-bottom: 2px solid cornflowerblue;
+    border-left: 2px solid cornflowerblue;
+    border-right: 2px solid cornflowerblue;
+    border-top: 2px solid cornflowerblue;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.input-group {
+    padding: 20px;
+}
+.form-control{
+    border-bottom: 2px solid rgb(240,240,240);
+    border-left: 2px solid rgb(240,240,240);
+    border-right: 2px solid rgb(240,240,240);
+    border-top: 2px solid rgb(240,240,240);
+    transition-duration: 1ms;
+}
+
+.form-control:hover {
+    border-bottom: 2px solid cornflowerblue;
+    border-left: 2px solid cornflowerblue;
+    border-right: 2px solid cornflowerblue;
+    border-top: 2px solid cornflowerblue;
+}
+
+.nav2 {
+    overflow: hidden; /* Hide overflow */
+    background-color: white; /* Dark background color */
+    border-bottom: 2px solid rgb(240,240,240);
+    font-size: small;
+    width: 1930px;
+}
+
+.nav2 a  {
+    /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: black; /* White text color */
+    text-align: left; /* Center the text */
+    padding: 10px;
+    text-decoration: none;
+    border: lightgray;
+}
+
+/* Change color on hover/mouse-over */
+.nav2 a:hover  {
+    color: cornflowerblue; /* Black text color */
+}
+
+
+.input-group{
+    width: 95%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.cv{
+    width: 2.25%;
+    height: 2.25%;
+    padding-top: 0.55%;
+    margin-left:35px;
+}
+
+.cv:hover{
+    color: cornflowerblue; /* Black text color */
+}
+
+.col-md-auto { padding: 1px; }
+
+.col { padding: 1px; }
+
+.enter{
+    margin-right: 30px;
+    font-size: small;
+    float: inside;
+    font-weight: bold;
+}
+
+.enter:hover{
+    color: cornflowerblue; /* Black text color */
+}
+
+.ups {
+    font-size: small;
+    float: inside;
+}
+
+input::placeholder {
+    color: darkgray !important;
+}
+
+.butg {
+    background-color: white;
+    border: white;
+    color: darkgray;
+    font-size: small;
+}
+
+.butg:hover{
+    color: cornflowerblue; /* Black text color */
+}
+
+.main {
+    background-color:rgb(245, 245, 245);
+    height: 1200px;
+    width: 2000px;
+    padding-top: 125.5px;
+}
+
+.pol {
+    background-color:rgb(245, 245, 245);
+    height: 45px;
+    width: 2000px
+}
+
+.maind {
+    width: 1830px;
+    height: 1010px;
+    background-color: white;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.maind a{
+    margin-left: 170px;
+    font-size: small;
+}
+
+.tov{
+    padding: 20px;
+    font-size: xx-large;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+.basement{
+    height: 320px;
+    font-size: small;
+    margin-left: 45px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.basement p:hover{
+    color: cornflowerblue; /* Black text color */
+}
+
+.basement h6 {
+    margin-bottom:20px
+}
+
+.last{
+    width: 2000px;
+    height: 50px;
+    background-color: #01071c;
+    color: white; /* White text color */
+    padding: 10px;
+    font-size: small;
+}
+
+.butn {
+    background-color: black;
+    border: black;
+    color: white;
+    font-size: small;
+    text-decoration: underline;
+}
+
+.butn:hover{
+    color: cornflowerblue; /* Black text color */
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+.column {
+    width: 15%;
+    padding: 10px;
+}
+
+#disabled:hover{
+    color:black;
+}
+
+#disabled1:hover{
+    color:black;
+}
+.im{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.cost{
+    margin-top: 50px;
+    margin-left: -140px;
+}
+
+.cost a{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.buy {
+    height: 55px;
+    width: 180px;
+    background-color: rgb(240,240,240);
+    border-bottom: 2px solid rgb(240,240,240);
+    border-left: 2px solid rgb(240,240,240);
+    border-right: 2px solid rgb(240,240,240);
+    border-top: 2px solid rgb(240,240,240);
+    margin-top: 40px;
+    margin-left: 175px;
+}
+
+.heart{
+    background-color: white;
+    border: white;
+}
+
+.heart svg:hover{
+    color: red;
+}
+
+.us {
+    border-bottom: 2px solid rgb(240,240,240);
+    border-left: 2px solid rgb(240,240,240);
+    border-right: 2px solid rgb(240,240,240);
+    border-top: 2px solid rgb(240,240,240);
+    width: 700px;
+    height: 180px;
+    margin-top: 25px;
+    margin-left: 175px;
+}
+
+.us a{
+    font-size: medium;
+    font-weight: normal;
+}
+
+.phr{
+ margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.usl{
+    height: 30px;
+    width: 170px;
+    background-color: white;
+    border: white;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.usl1{
+    height: 20px;
+    width: 30px;
+    background-color: white;
+    border: white;
+    font-size: 14px;
+    margin-left: 18px;
+}
+
+.yes{
+    background-color: limegreen;
+    color: white;
+    font-size: small;
+    height: 30px;
+    width: 120px;
+    border: limegreen;
+}
+
+.ins p{
+    margin-left:-25px ;
+}
+
+.buta{
+    font-weight: bold;
+    font-size: 19px;
+    text-align: left;
+    background-color: white;
+    border: none;
+    height: 40px;
+}
+
+button.selected{
+    border-bottom: 4px solid dodgerblue;
+    padding-bottom: 10px;
+}
+
+.emp{
+    width: 50px;
+}
+
+.otz{
+    background-color: white;
+    border-bottom: 2px solid rgb(240,240,240);
+    border-left: 2px solid rgb(240,240,240);
+    border-right: 2px solid rgb(240,240,240);
+    border-top: 2px solid rgb(240,240,240);
+    height: 60px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+
+.sk{
+    border-bottom: 2px solid rgb(240,240,240);
+    border-left: 2px solid rgb(240,240,240);
+    border-right: 2px solid rgb(240,240,240);
+    border-top: 2px solid rgb(240,240,240);
+    width: 1450px;
+    height: 180px;
+    margin-top: 25px;
+    margin-left:-25px ;
+
+}
+
+.sk p{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.usn{
+    height: 25px;
+    width: 40px;
+    background-color: white;
+    border: white;
+    font-size: 14px;
+}
+
+.usn1{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: white;
+    font-size: 14px;
+}
+
+.buy2 {
+    height: 50px;
+    width: 140px;
+    background-color: rgb(240,240,240);
+    border-bottom: 2px solid rgb(240,240,240);
+    border-left: 2px solid rgb(240,240,240);
+    border-right: 2px solid rgb(240,240,240);
+    border-top: 2px solid rgb(240,240,240);
+    margin-left: 15px;
+    font-size: medium;
+}
+
+.buy2:hover{
+    background-color: dodgerblue;
+    color: white;
+    border-bottom: 2px solid rgb(240,240,240);
+    border-left: 2px solid rgb(240,240,240);
+    border-right: 2px solid rgb(240,240,240);
+    border-top: 2px solid rgb(240,240,240);
+}
+
+.con {
+    height: 50px;
+    width: 140px;
+    background-color: white;
+    border-bottom: 2px solid rgb(240,240,240);
+    border-left: 2px solid rgb(240,240,240);
+    border-right: 2px solid rgb(240,240,240);
+    border-top: 2px solid rgb(240,240,240);
+    margin-left: 15px;
+    font-size: medium;
+}
+
+.con:hover{
+    border-bottom: 2px solid dodgerblue;
+    border-left: 2px solid dodgerblue;
+    border-right: 2px solid dodgerblue;
+    border-top: 2px solid dodgerblue;
+}
+
+.sk:hover{
+    border-bottom: 2px solid dodgerblue;
+    border-left: 2px solid dodgerblue;
+    border-right: 2px solid dodgerblue;
+    border-top: 2px solid dodgerblue;
+}
